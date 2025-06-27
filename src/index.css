@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --color-primary: 91 33 182;
+    --color-secondary: 124 58 237;
+  }
+
+  :root[data-theme="dark"] {
+    --color-bg-primary: 17 24 39;
+    --color-bg-secondary: 31 41 55;
+    --color-text-primary: 243 244 246;
+    --color-text-secondary: 209 213 219;
+  }
+
+  :root[data-theme="light"] {
+    --color-bg-primary: 255 255 255;
+    --color-bg-secondary: 243 244 246;
+    --color-text-primary: 17 24 39;
+    --color-text-secondary: 55 65 81;
+  }
+
+  html {
+    font-family: 'Noto Naskh Arabic', serif;
+  }
+
+  .font-islamic {
+    font-family: 'Amiri', serif;
+  }
+}
+
+.islamic-pattern {
+  background-image: url("../picsss/2.jpg");
+  animation: patternMove 30s linear infinite;
+}
+
+@keyframes patternMove {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100px 100px;
+  }
+}
+
+.theme-transition {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* index.css */
+.bg-cream {
+  background-color: #f5f5dc; /* Creamy color */
+}
+.bg-creamd {
+  background-color: #e6e6b3; /* Creamy color */
+}
+.bgreen2 {
+  background-color: #133419; /* Creamy color */
+}
+.bdgreen2 {
+  background-color: #08180b; /* Creamy color */
+}
+.bg-maroon{
+  background-color: #800000
+}
+
+.text-dark-maroon {
+  color: #800000; /* Dark maroon */
+}
+.text-gold {
+  color: #f1b657; /* Dark maroon */
+}
+@font-face {
+  font-family: 'MCS Diwany1 S_I adorned.';
+  src: url('src/fonts/ArbFonts.com-(12)/MCS Diwany1 S_I adorned..ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.bismillah {
+  font-family: 'MCS Diwany1 S_I adorned.', serif !important;
+  font-size: 5rem;
+  text-align: center;
+  direction: rtl;
+  display: inline-block;
+  animation: wave 2s ease-in-out infinite;
+}
+
+
+@font-face {
+  font-family: 'DTHULUTH';
+  src: url('src/fonts/DTHULUTH-II-1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.tsr {
+  font-family: 'DTHULUTH', serif !important;
+  text-align: center;
+  direction: rtl;
+  font-size: 1.5rem;
+}
+
+
+@font-face {
+  font-family: 'Hacen Sahara';
+  src: url('src/fonts/Hacen-Sahara-St.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.quran-text {
+  font-family: 'Hacen Sahara', serif !important;
+  font-size: 3rem; /* Adjust size if needed */
+  text-align: center;
+  direction: rtl;
+  line-height: 1.6;
+}
+.nav {
+  font-family: 'Hacen Sahara', serif !important;
+  font-size: 1.5rem; /* Adjust size if needed */
+  text-align: center;
+  direction: rtl;
+  line-height: 1.6;
+}
+.ts {
+  font-family: 'DTHULUTH', serif !important;
+  text-align: center;
+  direction: rtl;
+  font-size: 3rem;
+}
+.t {
+  font-size:2rem;
+}
+@font-face {
+  font-family: 'Gulzar';
+  src: url('src/fonts/Gulzar-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.nn {
+  font-family: 'Gulzar', serif !important;
+  font-size: 1.5rem; /* Ajustez la taille si nécessaire */
+  text-align: center;
+  direction: rtl;
+  line-height: 1.6;
+}
+@font-face {
+  font-family: 'Quran Taha';
+  src: url('src/fonts/alfont_com_خط-قرآن-طه-.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.quran-tex {
+  font-family: 'Quran Taha', serif !important;
+  font-size: 2rem; /* Adjust size if needed */
+  text-align: center;
+  direction: rtl;
+  line-height: 1.6;
+}
+.islamic-pattern2 {
+  background-image: url("../picsss/3.jpg");
+  animation: patternMove 30s linear infinite;
+}
+
+
+.quran {
+  font-family: 'Hacen Sahara', serif !important;
+  font-size: 3rem; /* Adjust size if needed */
+  text-align: right;
+  direction: rtl;
+  line-height: 1.6;
+}
