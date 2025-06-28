@@ -31,7 +31,7 @@
 }
 
 .islamic-pattern {
-  background-image: url("../picsss/2.jpg");
+  background-image: url("/2.jpg");
   animation: patternMove 30s linear infinite;
 }
 
@@ -72,7 +72,7 @@
 }
 @font-face {
   font-family: 'MCS Diwany1 S_I adorned.';
-  src: url('src/fonts/ArbFonts.com-(12)/MCS Diwany1 S_I adorned..ttf') format('truetype');
+  src: url('/ArbFonts.com-(12)/MCS Diwany1 S_I adorned..ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -94,7 +94,7 @@
 
 @font-face {
   font-family: 'DTHULUTH';
-  src: url('src/fonts/DTHULUTH-II-1.ttf') format('truetype');
+  src: url('/DTHULUTH-II-1.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -110,7 +110,7 @@
 
 @font-face {
   font-family: 'Hacen Sahara';
-  src: url('src/fonts/Hacen-Sahara-St.ttf') format('truetype');
+  src: url('/Hacen-Sahara-St.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -141,7 +141,7 @@
 }
 @font-face {
   font-family: 'Gulzar';
-  src: url('src/fonts/Gulzar-Regular.ttf') format('truetype');
+  src: url('/Gulzar-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -156,7 +156,7 @@
 }
 @font-face {
   font-family: 'Quran Taha';
-  src: url('src/fonts/alfont_com_خط-قرآن-طه-.ttf') format('truetype');
+  src: url('/alfont_com_خط-قرآن-طه-.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -170,7 +170,7 @@
   line-height: 1.6;
 }
 .islamic-pattern2 {
-  background-image: url("../picsss/3.jpg");
+  background-image: url("/3.jpg");
   animation: patternMove 30s linear infinite;
 }
 

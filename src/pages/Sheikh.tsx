@@ -25,7 +25,7 @@ function Sheikh() {
               transition={{ duration: 1 }}
             >
               <img
-                src="../../picsss/1.png"
+                src="/1.png"
                 alt="صورة الشيخ"
                 className="rounded-lg shadow-lg mb-4 w-full fade-border"
               />

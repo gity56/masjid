@@ -23,6 +23,8 @@ function About() {
               : 'bg-gradient-to-tr from-white/90 via-transparent to-cream/30'
           }`}></div>
           
+
+      
           <div className="relative z-10">
             <h1 className={`text-6xl font-bold text-center mb-8 ${
               theme === 'dark' ? 'text-gold drop-shadow-lg' : 'text-dark-maroon drop-shadow-md'
@@ -34,7 +36,7 @@ function About() {
                 : 'bg-gradient-to-br from-white/90 to-cream/40 border border-maroon/10 shadow-md'
             }`}>
               <img 
-                src="../../picsss/4.jpg"
+                src="/4.jpg"
                 alt="المدرسة"
                 className="rounded-lg shadow-lg w-full mb-6 h-81 object-cover"
               />
